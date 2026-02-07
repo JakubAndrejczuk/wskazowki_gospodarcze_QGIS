@@ -1,0 +1,14 @@
+[general]
+name=Wskazówki gospodarcze
+description=Wizualizacja wskazówek gospodarczych dla cięć rębnych i trzebieży
+about=<p>Wtyczka generuje warstwy przestrzenne o zdefiniowanym stylu przedstawiające wskazówki gospodarcze dla cięć rębnych <i>(I*, II*, III*, IV* i V*)</i> i trzebieży <i>(TWP i TPP)</i>, zgodnie z obowiązującym Planem Urządzenia Lasu, na podstawie danych z SILP.</p><p><b>Warstwy wejściowe:</b></p><ul><li><b>wydz_pol</b> oraz <b>zreb_pol</b> – warstwy w strukturze warstw pochodnych LMN,</li><li><b>raport BO</b> ze wskazówkami gospodarczymi – dostępny pod <a href="https://bo.silp.lasy.gov.pl/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AZwMvbd24EBLmIwnCaby38s">linkiem</a>.<i><br>Foldery publiczne &gt; 04 - Folder wymiany &gt; 97 - Foldery użytkowników &gt; QGIS<br><u>Przed uruchomieniem zapytania raport należy zapisać w folderze osobistym!</u></i></li></ul><p><b>Warstwy wynikowe:</b></p><ul><li><b>zreb_wsk</b> – działki zrębowe z przypisanym adresem leśnym, rodzajem rębni oraz powierzchnią manipulacyjną,</li><li><b>wydz_wsk</b> – wydzielenia leśne z przypisanymi adresem leśnym, rodzajem trzebieży oraz powierzchnią manipulacyjną, zasięg wydzieleń jest pomniejszony o działki zrębowe leżące w zasięgu danego obiektu.</li></ul><p><b>„Wizualizacja wykonania wskazówek”</b> - po zaznaczeniu opcji warstwom wynikowym nadawany jest styl rozróżniający pozycje wykonane od niewykonanych (wg stanu na poprzedni rok).</p><p><a href="https://bo.silp.lasy.gov.pl/BOE/OpenDocument/opendoc/openDocument.jsp?sIDType=CUID&iDocID=AVf07XQW_iZMmJ2G5YvaZ2I">Instrukcja wideo</a></p>
+
+version=1.0
+qgisMinimumVersion=3.0
+author=Jakub Andrejczuk
+email=jakub.andrejczuk@torun.lasy.gov.pl
+tags= PGL LP,LMN,wskazówki gospodarcze,urządzanie lasu
+homepage=https://github.com/jakubandrejczuk/wskazowki_gospodarcze_QGIS
+tracker=https://github.com/jakubandrejczuk/wskazowki_gospodarcze_QGIS/issues
+repository=https://github.com/jakubandrejczuk/wskazowki_gospodarcze_QGIS
+icon=icon.png
